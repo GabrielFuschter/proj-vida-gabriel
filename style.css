@@ -3,10 +3,10 @@
 :root {
    --cor-de-fundo:#392CDF;
    --verde: #12c912;
-   --verde: #1c201c;
-   --botao-ativo: #03EA7B;
+   --verde: #020302;
+   --botao-ativo: #6f8a24;
    --botao-inativo: #20ee20;
-   --texto-fundo: #04EAC0;
+   --texto-fundo: #2dea10;
 }
 
 body{
@@ -86,7 +86,11 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
-              
+   .contador{
+    font-size: 20px;
+    text-align: center;
+   }    
+         
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
